@@ -1,0 +1,160 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+.graphik400 {
+    font-family: "Graphik400", sans-serif;
+}
+
+.graphik500 {
+    font-family: "Graphik500", sans-serif;
+}
+
+.graphik600 {
+    font-family: "Graphik600", sans-serif;
+}
+
+.graphik700 {
+    font-family: "Graphik700", sans-serif;
+}
+
+@font-face {
+    font-family: "Graphik400", sans-serif;
+    src: url("../fonts/GraphikRegular.otf");
+}
+
+@font-face {
+    font-family: "Graphik500", sans-serif;
+    src: url("../fonts/GraphikMedium.otf");
+}
+
+@font-face {
+    font-family: "Graphik600", sans-serif;
+    src: url("../fonts/GraphikSemibold.otf");
+}
+
+@font-face {
+    font-family: "Graphik700", sans-serif;
+    src: url("../fonts/GraphikBold.otf");
+}
+
+
+
+:root {
+    /* font-size */
+    --font-size-16: 16px;
+    --font-size-18: 18px;
+    --font-size-20: 20px;
+    --font-size-22: 22px;
+    --font-size-24: 24px;
+    --font-size-28: 28px;
+    --font-size-30: 30px;
+    --font-size-32: 32px;
+    --font-size-44: 44px;
+
+    /* colors */
+    --color-lightblue: #6F69F2;
+    --color-white: #ffffff;
+    --color-gray: #4D4D4D;
+}
+
+.nav-items {
+    font-size: var(--font-size-16);
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--color-gray);
+}
+
+.log-inbtn {
+    font-family: "Graphik", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: 600;
+    line-height: 24px;
+    background: transparent;
+    border: none;
+}
+
+.sign-upbtn {
+    font-family: "Graphik", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: 600;
+    line-height: 24px;
+    padding: 10px 28px 10px 28px;
+    border-radius: 57px;
+    background-color: var(--color-lightblue);
+    border: 1px solid var(--color-lightblue);
+    color: var(--color-white);
+}
+
+.sec-2-heading {
+    font-size: var(--font-size-44);
+    font-weight: 600;
+    line-height: 56.32px;
+    text-align: center;
+    max-width: 605px;
+}
+
+.podcast-txt {
+    font-size: var(--font-size-44);
+    font-weight: 900;
+    line-height: 56.32px;
+    text-align: center;
+    color: #23a7d8;
+}
+
+.nav-bar {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.sec-2-para {
+    font-family: "Graphik", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: var(--color-gray);
+    max-width: 604px;
+}
+
+.sec-3-heading {
+    font-family: "Graphik", sans-serif;
+    font-size: var(--font-size-24);
+    font-weight: 500;
+    line-height: 33.6px;
+    text-align: left;
+    max-width: 558px;
+}
+
+.sec-3-para {
+    font-family: "Graphik", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: var(--color-gray);
+
+}
+
+.view-font {
+    background: linear-gradient(#00B9FF, #6F69F2, #10B6D0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Graphik", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+.pt-140 {
+    padding-top: 140px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
