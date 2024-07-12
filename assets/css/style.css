@@ -46,6 +46,7 @@
 
 :root {
     /* font-size */
+    --font-size-14: 14px;
     --font-size-16: 16px;
     --font-size-18: 18px;
     --font-size-20: 20px;
@@ -208,12 +209,14 @@
     border-radius: 57px;
     transition: 1s ease;
 }
+
 .end-btn:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     transition: 1s ease;
 }
+
 .ready-font {
     font-family: "Graphik", sans-serif;
     font-size: var(--font-size-24);
@@ -240,6 +243,46 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+
+
+.footer-para {
+    font-family: "Graphik", sans-serif;
+    font-size: var(--font-size-14);
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: var(--color-gray);
+    max-width: 300px;
+}
+
+.bg-color-8th {
+    background: linear-gradient(to bottom, white 50%, #EBECEF 50%);
+}
+
+.sec-9-bg {
+    background: #EBECEF;
+}
+
+.sec-9-ptxt {
+    font-family: "Graphik", sans-serif;
+    font-size: var(--font-size-16);
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+.ml-31 {
+    margin-left: 31px;
+}
+
+.sec-9-comman {
+    font-family: "Graphik", sans-serif;
+    font-size: var(--font-size-14);
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: var(--color-gray);
+}
 
 @media (max-width:992px) {
     .flex-direction-reverse-lg {
