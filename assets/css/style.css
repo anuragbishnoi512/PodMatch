@@ -8,9 +8,6 @@
     list-style: none !important;
 }
 
-body {
-    overflow: hid den !important;
-}
 
 .graphik400 {
     font-family: "Graphik400", sans-serif;
@@ -55,12 +52,14 @@ body {
     --font-size-14: 14px;
     --font-size-16: 16px;
     --font-size-18: 18px;
+    --font-size-19: 19px;
     --font-size-20: 20px;
     --font-size-22: 22px;
     --font-size-24: 24px;
     --font-size-28: 28px;
     --font-size-30: 30px;
     --font-size-32: 32px;
+    --font-size-37: 37px;
     --font-size-40: 40px;
     --font-size-44: 44px;
     --font-size-92: 92px;
@@ -242,6 +241,7 @@ body {
     line-height: 52px;
     text-align: center;
     color: var(--color-white);
+
 }
 
 .sec-7-bg-color {
@@ -385,7 +385,42 @@ body {
     transition: all 300ms linear;
 }
 
+.blue-shadow-1 {
+    top: 25px;
+    right: 0;
+}
+
+.blue-shadow-2 {
+    top: -70px;
+    right: 0;
+}
+
+.blue-shadow-3 {
+    top: -70px;
+    right: 0;
+}
+
+.sky-shadow-1 {
+    top: -100px;
+    left: 0;
+}
+
+.sky-shadow-2 {
+    top: -100px;
+    left: 0;
+}
+
+.mt-n1 {
+    margin-top: -1px;
+}
+
+.py-x70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
 @media (max-width:992px) {
+
     .flex-direction-reverse-lg {
         flex-direction: column-reverse;
     }
@@ -413,6 +448,16 @@ body {
     .mb-70 {
         margin-bottom: 70px;
     }
+
+    .sec-7-h3 {
+        font-size: var(--font-size-32);
+        line-height: 48px;
+    }
+
+    .ready-font {
+        font-size: var(--font-size-19);
+        line-height: 27px;
+    }
 }
 
 @media (max-width:992px) {
@@ -433,5 +478,55 @@ body {
         z-index: 20;
         transition: all 300ms linear;
 
+    }
+}
+
+@media (max-width:576px) {
+    .sec-2-heading {
+        font-size: var(--font-size-30);
+        line-height: 37px;
+    }
+
+    .pt-sm-0 {
+        padding-top: 0;
+    }
+
+    .pb-sm-20 {
+        padding-bottom: 20px;
+    }
+
+    .sm-flex-column {
+        flex-direction: column;
+    }
+
+    .pt-sm-50 {
+        padding-top: 50px;
+    }
+
+    .podcast-txt {
+        font-size: var(--font-size-37);
+    }
+
+    .sec-3-heading {
+        font-size: 19px;
+    }
+
+    .sec-3-para {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .pt-sm-40 {
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+
+    .sec-7-bg-color {
+        padding: 30px;
+    }
+
+    .sec-7-h3 {
+        font-size: 28px;
+        line-height: 35px;
     }
 }
